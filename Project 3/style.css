@@ -1,0 +1,38 @@
+
+
+
+/* global view - aka desktop view */
+h1 {
+    color: limegreen;
+}
+
+/* Tablet View */
+@media(max-width: 768px){
+
+h1 {
+    text-align: center;
+    color: darkorange;
+}
+
+}
+
+
+/* Mobile view */
+@media (max-width: 500px){
+
+h1 {
+    color: black;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
